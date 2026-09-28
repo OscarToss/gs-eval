@@ -1,0 +1,24 @@
+# 虚拟环境：不应该提交，别人自己重建
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 数据：CSV 是脚本生成的，不进仓库（原始压缩包也不进，README 里写了下载命令）
+data/wheat_X.csv
+data/wheat_Y.csv
+data/wheat_A.csv
+data/wheat_sets.csv
+data/raw/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+desktop.ini
